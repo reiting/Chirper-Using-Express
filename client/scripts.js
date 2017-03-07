@@ -10,9 +10,8 @@ $(document).ready(function () {
     //on  button click, empty the input field and disable the button
     $("#btn").click(function() {
         postData();
-        $('input[type="text"]').val('');
+        $('#createChirp').val('');
         $('button').prop('disabled', true);
-        alert("Hello");
     })
 
 function postData() {
